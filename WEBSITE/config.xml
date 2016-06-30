@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<widget>
+   
+   <name>CarminatiBartoli</name>
+   
+   <description>
+      Hypermedia Project 2016 - Tim
+   </description>
+   
+   <author>
+      CarminatiBartoli
+   </author>
+   
+   <!-- andorid -->
+   
+   <icon src="images/timlogoapp.png" platform="android" qualifier="ldpi" />
+   <icon src="images/timlogoapp.png" platform="android" qualifier="mdpi" />
+   <icon src="images/timlogoapp.png" platform="android" qualifier="hdpi" />
+   <icon src="images/timlogoapp.png" platform="android" qualifier="xhdpi" />
+   <icon src="images/timlogoapp.png" platform="android" qualifier="xxhdpi" />
+   <icon src="images/timlogoapp.png" platform="android" qualifier="fr-xxhdpi" />
+  
+   <!-- iPhone / iPod Touch  -->
+   <icon src="images/timlogoapp-60.png" platform="ios" width="60" height="60" />
+   
+   <!-- iPad -->
+   <icon src="images/timlogoapp-76.png" platform="ios" width="76" height="76" />
+   
+   <!-- Windows phone -->
+   <icon src="images/timlogoapp.png" platform="winphone" />
+   
+   <plugin name="cordova-plugin-whitelist" />
+   <access origin="*" />
+   <allow-intent href="*" />
+   
+</widget>

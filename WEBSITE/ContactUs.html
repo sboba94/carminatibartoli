@@ -1,0 +1,100 @@
+ <!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us</title>
+<!-- Fogli di stile -->
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.css">
+<link rel="stylesheet" href="plugins/flexslider/flexslider.css">
+<link rel="stylesheet" href="css/stili-custom.css">
+<link rel="stylesheet" href="css/my-css.css">
+
+
+</head>
+<body>
+<!-- Header e barra di navigazione -->
+<header>
+<nav class="navbar navbar-default">
+<div class="container">
+ <div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+   <span class="icon-bar"></span>
+   <span class="icon-bar"></span>
+  </button>
+  <a class="navbar-brand" href="index.html"></a>
+ </div> 
+ 
+ <div id="right-align" class="collapse navbar-collapse navbar-responsive-collapse">
+   
+   <ul class="nav navbar-nav">
+    <li> <a href="DeviceCategory.html" >Device</a></li>
+    <li> <a href="SLserviceCategory.html" >Smart life</a></li>
+    <li><a href="Assistance.html">assistance</a></li>
+   	<li class="blue-background"><a href="WhoWeAre.html"><p class="whiteText">who we are</p></a></li>
+    <li class="blue-background"><a href="#"><p class="whiteText">the group</p></a></li>
+    <li class="red-background"><a href="#"><p class="whiteText">contact us</p></a></li>
+   </ul>
+   
+ </div><!-- /.nav-collapse -->
+ <div id="blueline"></div>
+</div>
+
+</nav><!-- /.navbar -->
+
+</header><!-- /header -->
+
+<div class="container">
+	<div class="row">
+        <div class="col-sm-8" style="text-align:center">
+             <label for="inputdefault">Your Email Adress</label>
+             <input class="form-control" id="inputdefault" type="text">
+        </div>
+    	<div class="col-sm-4" style="text-align:center">
+        <div class="form-group">
+              <label for="sel1">Items</label>
+              <select class="form-control" id="sel1">
+                <option>Select One Item</option>
+                <option>Device</option>
+                <option>Service</option>
+                <option>Information</option>
+              </select>
+        </div>
+        </div>
+    </div>
+    <div class="row" style="padding:20px;">
+    	 <label for="comment">What do you need?</label>
+ 		 <textarea class="form-control" rows="15" id="comment"></textarea>
+    </div>
+    <div class="row">
+    	<div class="col-sm-9">
+        </div>
+        <div class="col-sm-3" style="text-align:right">
+        	<a onclick=' alert("Il messaggio è stato inviato! Verrà contattato al più presto possibile!"); ' href='index.html'>
+            	<button type="button" class="btn btn-primary">Send E.mail</button>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- footer -->
+<div class="container">
+<div class="blank-spacing"></div>
+<footer class="blue-background">
+      <div class="container">
+        <span class="text-muted">@Carminati-Bartoli all rights reserved</span>
+      </div>
+ </footer>
+ </div>
+<!-- jQuery e plugin JavaScript  -->
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="plugins/flexslider/jquery.flexslider.js"></script>
+<script src="plugins/fancybox/jquery.fancybox.pack.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
